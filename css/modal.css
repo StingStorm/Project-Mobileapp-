@@ -93,8 +93,10 @@ body {
     background-color: #06071B;
     color: #fff;
     line-height: 1.5;
+    justify-content: space-between;
     /* z-index: -1; */
 }
+
 
 .modal-title {
     color: inherit;
@@ -154,6 +156,10 @@ body {
 
 .download-plan-item {
     width: 100%;
+    background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    border: 2px solid transparent;
+    border-radius: 6px;
+    /* background-origin: border-box; */
 }
 
 @media (min-width) {
@@ -184,7 +190,7 @@ body {
     transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.download-plan-link::before {
+/* .download-plan-link::before {
     content: "";
     position: absolute;
     top: -2px;
@@ -195,7 +201,7 @@ body {
     border-radius: 6px;
 
     background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
-}
+} */
 
 .download-plan-link:hover,
 .download-plan-link:focus {
